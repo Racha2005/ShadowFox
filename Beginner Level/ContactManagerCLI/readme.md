@@ -10,21 +10,21 @@ This program is designed for those learning Java and aims to build a strong foun
 
 ## 🎯 Objectives
 
-- To practice object-oriented programming (OOP) concepts using Java.
-- To gain hands-on experience with `ArrayList` data structures.
-- To learn and implement basic CRUD operations.
-- To work with real-time user inputs via the console.
-- To create a functional and interactive Java application without a GUI.
+* To practice object-oriented programming (OOP) concepts using Java.
+* To gain hands-on experience with `ArrayList` data structures.
+* To learn and implement basic CRUD operations.
+* To work with real-time user inputs via the console.
+* To create a functional and interactive Java application without a GUI.
 
 ---
 
 ## 📦 Features
 
-- 🔹 **Add Contact** – Allows users to add a new contact by entering a name, phone number, and email address.
-- 🔹 **View Contacts** – Displays all stored contacts in a numbered list format.
-- 🔹 **Update Contact** – Enables editing of contact details by selecting the desired contact number.
-- 🔹 **Delete Contact** – Removes a contact from the list after selecting the correct index.
-- 🔹 **Exit** – Gracefully exits the application.
+* 🔹 **Add Contact** – Allows users to add a new contact by entering a name, phone number, and email address.
+* 🔹 **View Contacts** – Displays all stored contacts in a numbered list format.
+* 🔹 **Update Contact** – Enables editing of contact details by selecting the desired contact number.
+* 🔹 **Delete Contact** – Removes a contact from the list after selecting the correct index.
+* 🔹 **Exit** – Gracefully exits the application.
 
 Each feature is accessible via a clear and easy-to-understand menu system that guides the user through all available actions.
 
@@ -32,13 +32,13 @@ Each feature is accessible via a clear and easy-to-understand menu system that g
 
 ## 🔧 Technologies Used
 
-| Tool / Concept | Description |
-|----------------|-------------|
-| Java  | Core programming language |
-| ArrayList | To dynamically store contacts |
-| Scanner | For taking user input |
-| Methods | To modularize each operation |
-| CLI | Command-line interface for interaction |
+| Tool / Concept | Description                            |
+| -------------- | -------------------------------------- |
+| Java           | Core programming language              |
+| ArrayList      | To dynamically store contacts          |
+| Scanner        | For taking user input                  |
+| Methods        | To modularize each operation           |
+| CLI            | Command-line interface for interaction |
 
 ---
 
@@ -94,41 +94,53 @@ Each feature is accessible via a clear and easy-to-understand menu system that g
 
 ### Prerequisites
 
-- Java JDK 17 or above (Java 21 recommended)
-- A terminal (Command Prompt, PowerShell, Visual Studio editor or any terminal emulator)
-- Basic knowledge of Java and console-based input/output
+* Java JDK 17 or above (Java 21 recommended)
+* A terminal (Command Prompt, PowerShell, Visual Studio editor or any terminal emulator)
+* Basic knowledge of Java and console-based input/output
 
 ### Steps to Execute
 
 1. **Open your terminal** and navigate to the project folder:
+
    ```bash
    cd ContactManager java file location
- That is include the java file location indicated in cd " " 
- 
- ### Example:
- cd "C\Users\Desktop\ContactManagerCLI\ContactManager.java"
+   # That is, include the java file location indicated in cd " "
 
-2. **Compile the code** and check the program gets executed or not
+   # Example:
+   cd "C:\Users\Desktop\ContactManagerCLI"
+   ```
+
+2. **Compile the code**
+
    ```bash
    javac ContactManager.java
+   ```
 
 3. **Run the program**
+
    ```bash
    java ContactManager
+   ```
 
 4. **Follow the menu** to add, view, update, or delete contacts.
 
 ### 📸 Sample Program Menu
 
-**menus followed until we can perform all operations correctly**
+**Menus followed until we can perform all operations correctly**
 
-  ```bash
-   --- Contact Management System ---
+```bash
+--- Contact Management System ---
 1. Add Contact
 2. View Contacts
 3. Update Contact
 4. Delete Contact
 5. Exit
-Enter choice:1
+Enter choice: 1
+```
 
+---
+
+## 🙌 Acknowledgments
+
+This project is part of my **Java Development Internship** at ShadowFox. It strengthened my understanding of core Java concepts such as object-oriented programming, collections, user input handling, and modular code structuring through a practical, console-based application.
 
