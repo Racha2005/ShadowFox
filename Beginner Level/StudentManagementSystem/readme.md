@@ -92,3 +92,9 @@ If needed (e.g., on Windows 10/11), you may also include:
 This project is part of my **Java Development Internship** at ShadowFox. It helped reinforce the foundations of JavaFX GUI programming with a focus on real-world usability and beginner-friendly design.
 
 ---
+
+## 💻Images
+
+<img width="744" height="933" alt="image" src="https://github.com/user-attachments/assets/73ab8287-4af5-4acc-a5ca-12e9cd70e497" />
+
+---
